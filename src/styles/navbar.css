@@ -1,0 +1,103 @@
+.container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    padding: 1rem 0;
+    z-index: 9;
+    background: #ac2121;
+}
+.nav {
+    width: 90%;
+    display: flex;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+.text {
+    color: var(--primary-font-color);
+    height: auto;
+    font-size: 1.2rem;
+    align-self: auto;
+    font-style: Medium;
+    line-height: normal;
+    font-stretch: normal;
+    /* margin-right: 3rem; */
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.dropbtn {
+    color: var(--primary-font-color);
+    height: auto;
+    font-size: 1.2rem;
+    align-self: auto;
+    font-style: Medium;
+    line-height: normal;
+    font-stretch: normal;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    /* margin-right: 3rem; */
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+/* .logo_container {
+    width: 12rem;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    flex-shrink: 1;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+} */
