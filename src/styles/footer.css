@@ -1,58 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-body{
+/* body{
     background: #fcfcfc;
     font-family: sans-serif;
-    font-color: #111;
-}
-
-
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-
+    color: #111;
+} */
 footer{
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     left: 0;
     right: 0;
     background: #afedec;
     height: auto;
-    width: 100vw;
-    padding-top: 40px;
+    width: 100%;
     color: #111;
 }
+.footer-content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem 0;
+}
 
+.logo {
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid black;
+    padding: 2rem 0;
+}
 
-.footer-content h3{
-    font-size: 2.1rem;
-    font-weight: 500;
+.header{
+    font-size: 3rem;
+    font-weight: bolder;
     text-transform: capitalize;
     line-height: 3rem;
+    color: rgb(253,163,10);
 }
 
-
-.footer-content p{
-    max-width: 500px;
+.sub_header{
+    /* max-width: 500px; */
     margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+    line-height: 150%;
+    font-size: 1.2rem;
     color: #111;
 }
 
+.details {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0;
+}
+
+.card_container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.card {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.card_header {
+    font-size: 1.4rem;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
 
 .footer-bottom{
     background: #000;
-    width: 100vw;
+    width: 100%;
     padding: 20px;
     padding-bottom: 40px;
     text-align: center;
@@ -60,28 +82,25 @@ footer{
 
 
 .footer-bottom p{
-    float: left;
-    font-size: 14px;
+    text-align: left;
+    font-size: 1rem;
     word-spacing: 2px;
     text-transform: capitalize;
  }
- .footer-bottom p a{
+.footer-bottom p a{
    color:#44bae8;
-   font-size: 16px;
+   font-size: 1rem;
    text-decoration: none;
- }
+}
+
  .footer-bottom span{
      text-transform: uppercase;
      opacity: .4;
      font-weight: 200;
  }
- 
- 
-@media (max-width:500px) {
-    .footer-menu ul{
-      display: flex;
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-    }
+
+.copyright {
+    color: white;
+}
+
     

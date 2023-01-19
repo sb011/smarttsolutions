@@ -1,20 +1,38 @@
-import React from 'react';
 import "../styles/footer.css";
-import { Link } from "react-router-dom";
+
 const Footer = () => {
     return (
         <footer>
             <div className="footer-content">
-                <h3>Smart Solutions</h3>
-                <p>Simplify the Solution Smartly</p>
-                <h2>6A,Santpura, Kaprthala(144601).<br></br>
-                Mobile No. +91 9464794809 / +91 6280843245 <br></br>
-                Email: <a href="mailto:=smarttsolutions85@gmail.com">smarttsolutions85@gmail.com</a><br></br>
-                Website: www.smarttsolutions.in
-                </h2>
+                <div className="logo">
+                    <h1 className='header'>Smart Solutions</h1>
+                    <p className='sub_header'>Simplify the Solution Smartly</p>
+                </div>
+                <div className="details">
+                    <div className="card_container">
+                        <div className="card">
+                            <h3 className="card_header">Address</h3>
+                            <p className="link">6A,Santpura, Kaprthala(144601) </p>
+                        </div>
+                        <div className="card">
+                            <h3 className="card_header">Mobile No.</h3>
+                            <p className="link">+91 9464794809 / +91 6280843245 </p>
+                        </div>
+                    </div>
+                    <div className="card_container">
+                        <div className="card">
+                            <h3 className="card_header">Email</h3>
+                            <a className="link" href="mailto:=smarttsolutions85@gmail.com">smarttsolutions85@gmail.com</a>
+                        </div>
+                        <div className="card">
+                            <h3 className="card_header">Website</h3>
+                            <a className="link" href="www.smarttsolutions.in">www.smarttsolutions.in</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="footer-bottom">
-                <p>copyright &copy;2021 <a href="/">smartsolutions</a></p>
+                <p className='copyright'>copyright &copy;2023 <a href="/">smartsolutions</a></p>
             </div>
         </footer>
     )

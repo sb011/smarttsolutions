@@ -1,0 +1,31 @@
+/* .main {
+    width: 100%;
+    height: 100%;
+} */
+
+.quote {
+    text-align: center;
+    padding: 2rem;
+}
+
+.q {
+    font-size: 2rem;
+}
+
+.aboutus_container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutus {
+    font-size: 4rem;
+}
+
+.par {
+    font-size: 2rem;
+    width: 80%;
+    text-align: justify;
+    margin-top: 2rem;
+}

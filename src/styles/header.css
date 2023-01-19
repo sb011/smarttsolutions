@@ -1,0 +1,17 @@
+.header_container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: black;
+    padding: 10rem 0;
+    overflow:hidden;
+}
+
+.header {
+    font-size: 5rem;
+}
+
+.sub_header {
+    font-size: 2rem;
+    color: white;
+}
