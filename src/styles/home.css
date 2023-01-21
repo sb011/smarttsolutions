@@ -1,33 +1,46 @@
 .main {
+    padding-top: 8%;
     width: 100%;
-    /* height: 100%; */
+    /* background: black; */
 }
 
 .quote {
     text-align: center;
     padding: 2rem;
+    margin: 10rem auto 5rem auto;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
 }
 
 .q {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .aboutus_container {
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3rem 0;
+    box-shadow: 10px 10px;
 }
 
 .aboutus {
     font-size: 4rem;
+    margin-bottom: 2rem;
 }
 
 .par {
     font-size: 2rem;
     width: 80%;
     text-align: justify;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .center_container {
@@ -35,6 +48,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .img_container {
@@ -62,9 +76,18 @@
 .img_cont:hover .img {
     transform: scale(1.5);
 }
-.img_header1, .img_header2, .img_header3, .img_header4{
+.img_header{
     position: absolute;
     z-index: 2;
+    color: black;
+    bottom: 8%;
+    right: 8%;
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    /* backdrop-filter: blur(10px); */
+    background: white;
 }
 
 .img_cont1 {
@@ -77,22 +100,61 @@
     height: 100%;
 }
 
-.img_header1 {
-    bottom: 8%;
-    right: 8%;
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
 }
 
-.img_header2 {
-    bottom: 8%;
-    left: 8%;
+.card_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 10px 10px;
 }
 
-.img_header3 {
-    top: 8%;
-    right: 8%;
+.spec_title {
+    text-align: center;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
-.img_header4 {
-    top: 8%;
-    left: 8%;
+.aboutus1 {
+    font-size: 4rem;
+}
+
+.card_img_container {
+    width: 40%;
+}
+
+.card_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card_info {
+    margin-left: 2rem;
+    width: 60%;
+    align-self: flex-start;
+}
+
+.card_header1 {
+    font-size: 3rem;
+}
+
+.card_p {
+    font-size: 1.5rem;
+    text-align: justify;
 }
